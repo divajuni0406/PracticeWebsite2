@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.firstPage {
+    background-image: url('img/blur-branches-close-up-environment-213727\ 1.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-page {
+    height: 100vh;
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+}
+
+.text-title h1 {
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-title hr {
+    width: 5%;
+    border: 2px solid grey;
+    margin-bottom: 40px;
+}
+
+.list-products {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.box-img {
+    max-width: 25%;
+    width: 100%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.box-img img {
+    width: 100%;
+}
+
+.box-img hr {
+    width: 20%;
+    border: 2px solid grey;
+    margin-top: 50px;
+}
+
+.title-img h2 {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.title-img p {
+    font-family: sans-serif;
+    line-height: 30px;
+
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+
+.third-page {
+    height: 100vh;
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+}
+
+.container-content {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    width: 100%;
+}
+
+.container-img {
+    max-width: 50%;
+    width: 100%;
+}
+
+.container-img img {
+    width: 100%;
+}
+
+.container-text {
+    max-width: 50%;
+    width: 100%;
+}
+
+.container-text hr {
+    width: 10%;
+    border: 2px solid grey;
+}
+
+#title-text, #paragraf {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
+#title-text {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#paragraf {
+    font-size: 1.2rem;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.forth-page {
+    height: 100vh;
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+}
+
+.container-subscribe {
+    height: 90%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subscribe-text h1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.subscribe-text p {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.email-box #email {
+    width: 50%;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+#btn-submit {
+    margin-top: 50px;
+    font-size: 1rem;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    background: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.right a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 50px;
+}
